@@ -1,0 +1,124 @@
+header {
+    border: 2px;
+    border-color: brown;
+    border-style: solid;
+    width: 90%;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:antiquewhite;
+}
+nav {
+    margin: 5%;
+    float: right;
+    width: 30%;
+}
+h1{
+    display: inline;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color:burlywood;
+    max-width:  70%;;
+}
+ul {
+    display: inline;
+    list-style: none;
+  } 
+  nav  li {
+    padding-right: 1%;
+    display: inline;
+    float: left;
+  }
+aside {
+    margin-left: 5%;
+    margin-top: 13%;
+    border: 2px;
+    border-color: brown;
+    background-color: antiquewhite;
+    border-style: solid;
+    float: left;
+    width: 20%;
+}
+main{
+    margin-right: 5%;
+    float: right;
+    width: 60%;
+    margin-top: 13%;
+    border: 2px;
+    border-color: brown;
+    background-color: antiquewhite;
+    border-style: solid;
+}
+
+.Immagine-Post{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    width: 30%;
+    height: 30%;
+}
+
+.Immagine-Profilo{
+    float: left;
+    object-fit: cover;
+    width: 3vw;
+    height: 6vw;
+}
+.Utente{
+    border: 2px;
+    float: right;
+    width: 55%;
+    border-color: brown;
+    background-color: beige;;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+}
+.Utente .nomeUtente {
+    font-weight: 600;
+    float: left;
+    display: inline;
+    font-family:cursive;
+    margin-left: 5%;
+}
+.Utente .dataPost{
+    margin-right: 5%;
+    display: inline;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+  }
+  .contenutoPost{
+    display: block;
+    float: both;
+    top: 5%;
+    font-size: 12px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+hr {
+    clear: both;
+    margin: 5%;
+    border-color: brown;
+}
+
+footer{
+    clear: both;
+    margin: 5%;
+}
+button{
+    background-color: burlywood;
+    z-index: 1;
+    width: 5vw;
+    height: 5vw;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    border-radius: 50%;
+}
